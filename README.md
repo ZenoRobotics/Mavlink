@@ -14,5 +14,9 @@ PyMAVLink provides a way for Python developers to build applications that commun
 
 Information on the formats and definitions of Mavlink Standard Messages and Commands can be found on the Mavlink website: https://mavlink.io/en/messages/
 
+## Learning Sources
+
+Pymavlink Tutorials by Intelligent Quads: connect, arm, takeoff, movement, and set yaw and speed.
+https://www.youtube.com/playlist?list=PLy9nLDKxDN68cwdt5EznyAul6R8mUSNou
 
 
