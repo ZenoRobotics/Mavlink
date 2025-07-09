@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The creation of this repository was for the purpose of keeping my notes, instructions, links, etc. in a single place where I can easily find it! :) 
+The creation of this repository was for the purpose of keeping my notes, instructions, links, etc. in a single place where I can easily find it! :) Additionally, I hope that others will be able to benefit from my notes as well.
 
 Mavlink and PyMavlink (see below for definitions) will be used here for offboard communication between a drone's companion computer (e.g., Raspberry Pi running linux) and the drone's flight controller. Both simulations and hardware setup information will be stored here.
 
