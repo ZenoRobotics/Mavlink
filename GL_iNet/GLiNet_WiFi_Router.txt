@@ -1,0 +1,8 @@
+Setup Instructions:
+
+https://docs.gl-inet.com/router/en/4/faq/first_time_setup/
+
+Name:   DroneWifiNet
+Passwd: 2033647269
+
+Open in Chrome or Edge
