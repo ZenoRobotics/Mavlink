@@ -1,6 +1,6 @@
 # Example Python Scripts
 
-The offboard Python code in this directory can be used for both for simulation and on hardware.
+The offboard Python code in this directory can be used for both simulation and on hardware.
 
 The instructions of running this code in simulation mode using PX4 and ArduPilot is as follows:
 
