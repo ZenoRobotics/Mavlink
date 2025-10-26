@@ -19,4 +19,9 @@ Information on the formats and definitions of Mavlink Standard Messages and Comm
 Pymavlink Tutorials by Intelligent Quads: connect, arm, takeoff, movement, and set yaw and speed.
 https://www.youtube.com/playlist?list=PLy9nLDKxDN68cwdt5EznyAul6R8mUSNou
 
+## System Overview
+
+<img width="582" height="475" alt="image" src="https://github.com/user-attachments/assets/7814868f-fe74-4425-ba7b-453820fd5dfc" />
+
+
 
