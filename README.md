@@ -26,10 +26,33 @@ https://www.youtube.com/playlist?list=PLy9nLDKxDN68cwdt5EznyAul6R8mUSNou
 
 # Connect Pixhawk to Raspberry Pi
 
-Hardware wiring (UART/serial):  
+**Hardware wiring (UART/serial):**  
 - Pixhawk 2.4.8 → Raspberry Pi 4 UART (GPIO 14/15)  
 - Pixhawk TELEM2 TX (Pin 2) → Pi RX (GPIO 15, Pin 10)  
 - Pixhawk TELEM2 RX (Pin 3) → Pi TX (GPIO 14, Pin 8)  
 - Grounds (Pin 6) → Common GND
 
 Baud rate: typically 921600 baud (fastest stable rate).
+
+# Configure Pixhawk
+You’ll configure one telemetry port for the companion link.
+
+**For ArduPilot firmware:**
+Connect Pixhawk via USB to QGroundControl, open Parameters, set:
+
+```
+SERIAL2_PROTOCOL = 2      (MAVLink2)
+SERIAL2_BAUD     = 921    (921600)
+```
+Then reboot.
+
+**For Pixhawk firmware:** \
+Set:
+```
+MAV_1_CONFIG = TELEM2
+MAV_1_MODE   = Onboard
+MAV_1_RATE   = 921600
+```
+
+
+
